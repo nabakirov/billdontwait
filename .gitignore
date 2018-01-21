@@ -1,2 +1,4 @@
 .env/
 DataBases/
+.idea/
+.idea/workspace.xml
