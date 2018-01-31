@@ -141,6 +141,8 @@ class DB:
             return None
         return dict(id=subuser[0], user_id=subuser[1], name=subuser[2])
 
+
+
     def getSubuserName(self, subuser_id, user_id):
         sql = '''
             select name from subusers where id = %s and user_id = %s
